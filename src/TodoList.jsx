@@ -47,7 +47,7 @@ export default function TodoList() {
         </h1>
 
         <div className="absolute right-4 top-1/2 transform -translate-y-1/2 flex items-center gap-4">
-          <h2 className="bg-white rounded-full px-3 py-1">
+          <h2 className="bg-white rounded-full px-3 py-1 font-mono">
             Pineda Castillejos Liam
           </h2>
           <div className="h-12 w-12 rounded-full overflow-hidden mt-2">
@@ -72,7 +72,7 @@ export default function TodoList() {
         </button>
       </div>
 
-      <ul className="flex flex-col items-center mt-4 gap-2 w-full">
+      <ul className="flex flex-col items-center mt-4 gap-2 w-full font-mono">
         {tasks.map((task, index) => (
           <li
             key={index}
